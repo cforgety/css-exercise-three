@@ -5,17 +5,52 @@ body {
 }
 
 .container {
+  box-sizing: border-box;
+  background-color: #D0D0D0;
   margin: 0 auto;
-  width: 420px;
+  padding: 50;
+  width: 435px;
 }
 
 nav {
+  box-sizing: border-box;
+  background-color: black;
   margin: 0 auto;
-  padding: 10px 0 15px 15px;
+  padding: 15px 0 15px 15px;
   position: fixed;
-  width: 420px;
+  width: 435px;
+}
+
+h1 {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+h3 {
+  margin-top: 0px;
 }
 
 .restaurant-list {
   padding-top: 50px;
+}
+
+.location {
+  box-sizing: border-box;
+  margin: auto;
+  padding: 5px 12px 5px 12px;
+  border-bottom: .5px solid black;
+}
+.location:hover {
+  background-color: gray;
+}
+
+.content {
+  display: inline-block;
+}
+
+.arrow {
+display: inline-block;
+float: right;
+padding-top: 25px;
+padding-right: 10px;
 }
